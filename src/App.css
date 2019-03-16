@@ -1,33 +1,107 @@
+@font-face {
+	src: url(fonts/nimbusmono-regular.otf);
+	font-family: Nimbus;
+}
+
 .App {
+  height: 100vh;
+  width: auto;
+}
+
+h1 {
+  font-size: 7vh;
+  margin: auto;
+  font-family: 'Nimbus';
   text-align: center;
+  margin-bottom: -8vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  size: 15vh;
+  margin-top: 0vh;
+  margin-bottom: 7vh; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 4vh;
+  margin-top: 48vh;
+  margin-bottom: -10vh;
+  font-family: 'Nimbus';
+  text-align: center;
+  margin-bottom: -8vh;
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  font-size: 4vh;
+  margin-top: 14vh;
+  margin-bottom: -10vh;
+  font-family: 'Nimbus';
+  text-align: center;
+  margin-bottom: -8vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxHold {
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  margin-top: 5vh;
+
+}
+
+.rectHold {
+  margin: auto;
+  width: 80vh;;
+  margin-top: 0vh;
+}
+
+
+.rectangle1 {
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 30vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.hexInfo1 {
+  font-size: 5vh;
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 29vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.hexInfo2 {
+  font-size: 5vh;
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: -1vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.hexInfo3 {
+  font-size: 5vh;
+  position: absolute;
+  margin-top: 13vh;
+  margin-left: 59vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.rectangle2 {
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 0vh;
+  width: 20vh;
+  height: 20vh;
+}
+
+.rectangle3 {
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 60vh;
+  width: 20vh;
+  height: 20vh;
 }
