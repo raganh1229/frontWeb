@@ -39,8 +39,6 @@ componentDidMount() {
     })
   }
   
-
-
   render() {
 
   var itemName = this.state.items.map(item => item.id)
@@ -57,7 +55,6 @@ componentDidMount() {
     else {
     return (
       <section style={{ backgroundColor: "#" + itemHex[0]}} className="App">
-        <div className="boxHold">
           <h1>JR is giving you the random color ID: <h2 style={{color: "#" + itemHex[4]}}>{itemName[0]}.</h2></h1>
           <h1>also, the hex is: {"#" + itemHex[0]}</h1>
           <h4>here are some other colors that go w/ it</h4>
@@ -70,7 +67,6 @@ componentDidMount() {
               <div style={{backgroundColor: "#" + itemHex[3]}} className="rectangle3"></div>
             </div>
           <h3><a href="http://www.colr.org/api.html">data courtesy of the color API, colr.org</a></h3>
-        </div>
       </section>
     );
   }
