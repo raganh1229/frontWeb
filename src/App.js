@@ -9,7 +9,7 @@ class App extends Component {
     isLoaded: true
   }
 }
-  
+
 componentDidMount() {
 
   let cachedColors;
